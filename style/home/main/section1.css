@@ -1,0 +1,21 @@
+.section1-flex{
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.main-frase{
+  text-align: center;
+}
+
+.main-download a{
+  background-color: var(--cor-secundaria-escura);
+  padding: 20px 16px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--cor-secundaria-claro);
+  border-width: 2px;
+  
+}

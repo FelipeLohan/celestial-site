@@ -44,3 +44,11 @@
 .font-M{
   font-size: var(--font-M);
 }
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.roboto{
+  font-family: Roboto-Regular;
+}
