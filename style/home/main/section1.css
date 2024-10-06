@@ -11,11 +11,33 @@
 }
 
 .main-download a{
-  background-color: var(--cor-secundaria-escura);
+  background-color: var( --cor-fundo-botao2);
   padding: 20px 16px;
   border-radius: 4px;
   border-style: solid;
-  border-color: var(--cor-secundaria-claro);
+  border-color: var(--cor-texto-botao2);
+  color: var(--cor-texto-botao2);
   border-width: 2px;
   
+}
+
+@media (max-width: 1270px){
+  .main-frase{
+    font-size: 6vmin;
+  }
+  .section1-flex{
+    padding-top: 100px;
+    
+  }
+}
+
+@media (max-width: 764px){
+  .main-frase{
+    font-size: 5vmin;
+  }
+
+  .main-download a{
+    font-size: 3vmin;
+    padding: 16px 8px;
+  }
 }

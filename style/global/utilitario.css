@@ -4,7 +4,9 @@
   --cor-secundaria-escura: #7A008D;
   --cor-fundo-botao: #7A008D;
   --cor-background: linear-gradient(180deg, #000000 22%, #0B0011 81%);
- 
+  --cor-fundo-botao2: #004F24;
+  --cor-texto-botao2: #3DE288;
+  
   --font-XL: 64px;
   --font-X: 48px;
   --font-G: 32px;
@@ -18,19 +20,27 @@
 }
 
 .cor-secundaria-claro{
-  color: var(--cor-secundaria-claro)
+  color: var(--cor-secundaria-claro);
 }
 
 .cor-secundaria-escura{
-  color: var(--cor-secundaria-escura)
+  color: var(--cor-secundaria-escura);
 }
 
 .cor-fundo-botao{
   background: var(--cor-fundo-botao);
 }
 
+.cor-fundo-botao2{
+  background-color: var(--cor-fundo-botao2);
+}
+
+.cor-texto-botao2{
+  color: var(--cor-texto-botao2);
+}
+
 .font-XL{
-  font-size: var(--font-XL)
+  font-size: var(--font-XL);
 }
 
 .font-X{
