@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Mako-Regular;
+  src: url(../fonts/Mako-Regular.ttf);
+}
+
+body{
+  background: var(--cor-background);
+  height: 100vh;
+  margin: 0;
+  font-family: Mako-Regular;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a{
+  text-decoration: none;
+  color: var(--cor-secundaria-claro);
+}
