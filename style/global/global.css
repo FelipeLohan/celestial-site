@@ -10,7 +10,7 @@
 
 body{
   background: var(--cor-background);
-  height: 100vh;
+  height: 100%;
   margin: 0;
   font-family: Mako-Regular;
 }

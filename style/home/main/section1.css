@@ -11,6 +11,7 @@
 }
 
 .main-download a{
+  display: inline-block;
   background-color: var( --cor-fundo-botao2);
   padding: 20px 16px;
   border-radius: 4px;

@@ -1,0 +1,24 @@
+.section2-flex{
+  padding-top: 150px;
+  display: flex;
+  gap: 120px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.section2-flex img{
+  display: inline-block;
+  
+}
+
+@media (max-width: 760px){
+  .section2-flex img{
+    width: 30vmin;
+  }
+
+  .section2-flex{
+    gap: 50px;
+  }
+}
