@@ -11,3 +11,30 @@ header{
   align-items: center;
   padding: 60px;
 }
+
+.login-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 70%;
+  margin: 0 auto;
+  background-color: var(--cor-background-2);
+  border-style: solid;
+  border-color: aqua;
+  padding: 60px;
+}
+
+.login-card{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  justify-self: center;
+  background-color: var(--cor-background-3);
+  align-items: center;
+  padding: 60px;
+}
+
+.login-forms{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

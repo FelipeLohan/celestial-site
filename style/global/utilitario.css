@@ -2,14 +2,18 @@
   --cor-primaria: #fff;
   --cor-secundaria-claro: #E59BFF;
   --cor-secundaria-escura: #7A008D;
+  --cor-secundaria-2: #E174F4;
   --cor-fundo-botao: #7A008D;
   --cor-background: linear-gradient(180deg, #000000 22%, #0B0011 81%);
+  --cor-background-2: #170024;
+  --cor-background-3: #1A001F;
   --cor-fundo-botao2: #004F24;
   --cor-texto-botao2: #3DE288;
   
   --font-XL: 64px;
   --font-X: 48px;
   --font-G: 32px;
+  --font-MM: 26px;
   --font-M: 16px;
   --font-P: 8px;
   
@@ -27,6 +31,9 @@
   color: var(--cor-secundaria-escura);
 }
 
+.cor-secundaria-2{
+  color: var(--cor-secundaria-2);
+}
 .cor-fundo-botao{
   background: var(--cor-fundo-botao);
 }
@@ -49,6 +56,10 @@
 
 .font-G{
   font-size: var(--font-G);
+}
+
+.font-MM{
+  font-size: var(--font-MM);
 }
 
 .font-M{
