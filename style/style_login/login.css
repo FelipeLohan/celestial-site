@@ -1,31 +1,30 @@
 @import "/style/global/global.css";
 @import "/style/global/utilitario.css";
+@import "/style/home/footer/footer.css";
 
-html{
-  height: 200%;
+html {
+  height: 110vh;
 }
 
-header{
+header {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 60px;
 }
 
-.login-grid{
+.login-grid {
   display: grid;
   grid-template-columns: auto auto;
   width: 70%;
   margin: 0 auto;
   background-color: var(--cor-background-2);
-  border-style: solid;
-  border-color: aqua;
   padding: 60px;
   border-radius: 6px;
   gap: 40px;
 }
 
-.login-card{
+.login-card {
   display: flex;
   flex-direction: column;
   gap: 60px;
@@ -36,13 +35,13 @@ header{
   border-radius: 6px;
 }
 
-.login-forms{
+.login-forms {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
 
-.regis-card{
+.regis-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,19 +51,19 @@ header{
   border-radius: 6px;
 }
 
-.regis-txt{
+.regis-txt {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.regis-txt{
+.regis-txt {
   text-align: center;
 }
 
-.regis-card a{
+.regis-card a {
   display: inline-block;
-  background-color: var( --cor-fundo-botao2);
+  background-color: var(--cor-fundo-botao2);
   padding: 16px 26px;
   border-radius: 4px;
   border-style: solid;
@@ -73,32 +72,91 @@ header{
   border-width: 2px;
 }
 
-@media(max-width: 1400px){
-  .login-grid{
+.forms-email > input {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  background-color: #7a008d;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.forms-senha > input {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  background-color: #7a008d;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.forms-email > input::placeholder {
+  font-size: 2.5vmin;
+  color: #e59bff;
+}
+
+.forms-senha > input::placeholder {
+  font-size: 2.5vmin;
+  color: #e59bff;
+}
+
+.login-cta {
+  width: 100%;
+  text-align: center;
+}
+
+.cta-login {
+  display: inline-block;
+  background-color: var(--cor-fundo-botao2);
+  padding: 16px 26px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--cor-texto-botao2);
+  color: var(--cor-texto-botao2);
+  border-width: 2px;
+  box-sizing: border-box;
+}
+
+.login-grid {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 1400px) {
+  .login-grid {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
   }
 
-  .regis-card{
+  .regis-card {
     padding: 60px;
   }
 }
 
-@media (max-width: 800px){
-  .regis-txt h1{
+@media (max-width: 800px) {
+  .regis-txt h1 {
     font-size: 6vmin;
   }
 
-  .regis-txt p{
+  .regis-txt p {
     font-size: 4vmin;
   }
 
-  .regis-card a{
+  .regis-card a {
     font-size: 6vmin;
   }
 
-  .forms-email input{
+  .forms-email input {
     font-size: 4vmin;
     margin: 0 auto;
+  }
+
+  .cta-login {
+    font-size: 6vmin;
+  }
+
+  .login-card h1 {
+    font-size: 6vmin;
   }
 }
