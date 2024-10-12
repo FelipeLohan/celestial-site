@@ -2,7 +2,7 @@
 @import "/style/global/utilitario.css";
 
 html{
-  height: 100%;
+  height: 200%;
 }
 
 header{
@@ -21,6 +21,8 @@ header{
   border-style: solid;
   border-color: aqua;
   padding: 60px;
+  border-radius: 6px;
+  gap: 40px;
 }
 
 .login-card{
@@ -31,10 +33,72 @@ header{
   background-color: var(--cor-background-3);
   align-items: center;
   padding: 60px;
+  border-radius: 6px;
 }
 
 .login-forms{
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+
+.regis-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  background-color: var(--cor-background-3);
+  border-radius: 6px;
+}
+
+.regis-txt{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.regis-txt{
+  text-align: center;
+}
+
+.regis-card a{
+  display: inline-block;
+  background-color: var( --cor-fundo-botao2);
+  padding: 16px 26px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--cor-texto-botao2);
+  color: var(--cor-texto-botao2);
+  border-width: 2px;
+}
+
+@media(max-width: 1400px){
+  .login-grid{
+    display: flex;
+    flex-direction: column;  
+  }
+
+  .regis-card{
+    padding: 60px;
+  }
+}
+
+@media (max-width: 800px){
+  .regis-txt h1{
+    font-size: 6vmin;
+  }
+
+  .regis-txt p{
+    font-size: 4vmin;
+  }
+
+  .regis-card a{
+    font-size: 6vmin;
+  }
+
+  .forms-email input{
+    font-size: 4vmin;
+    margin: 0 auto;
+  }
 }
